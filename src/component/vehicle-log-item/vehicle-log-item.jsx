@@ -10,23 +10,23 @@ export const LogItem = ({ details, isHeader }) => {
     const { type, number, tarrif, date, tollname } = details;
     return (
 
-        <ul className={classes}>
-            <li>
+        <div className={classes}>
+            <div>
                 {type}
-            </li>
-            <li>
+            </div>
+            <div>
                 {number}
-            </li>
-            <li>
+            </div>
+            <div>
                 {date}
-            </li>
-            <li>
+            </div>
+            <div>
                 {tollname}
-            </li>
-            <li>
+            </div>
+            <div>
                 {tarrif}
-            </li>
-        </ul>);
+            </div>
+        </div>);
 
 
 }

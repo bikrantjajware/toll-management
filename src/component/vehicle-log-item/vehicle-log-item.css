@@ -1,6 +1,5 @@
 .log-item {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
     list-style: none;
 }
 
@@ -8,5 +7,6 @@
     background-color: lightgray;
     color: gray;
     padding-block: 0.3rem;
+
     margin-bottom: 1rem;
 }
