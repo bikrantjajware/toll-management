@@ -1,0 +1,23 @@
+.navbar {
+    box-sizing: border-box;
+    /* padding: auto 2rem; */
+}
+
+.menu-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+}
+
+/* .menu-items {
+    display: flex;
+    justify-content: right;
+} */
+
+.left-menu-items,
+.right-menu-items {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    list-style: none;
+}

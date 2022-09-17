@@ -1,0 +1,12 @@
+.log-item {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.list-header {
+    background-color: lightgray;
+    color: gray;
+    padding-block: 0.3rem;
+    margin-bottom: 1rem;
+}
