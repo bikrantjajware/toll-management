@@ -1,6 +1,4 @@
 import React from 'react';
-import './not-found.css';
-import '../../assets/images/error-404.jpg';
 
 export const NotFound = ({ message }) => {
   return (
