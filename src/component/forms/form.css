@@ -1,0 +1,66 @@
+.title {
+  text-align: center;
+  font-weight: bold;
+  padding: 1rem 2rem;
+}
+
+.form-container {
+  max-width: 80vw;
+}
+
+.input-element {
+  width: stretch;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  margin-block: 1rem;
+  font-size: large;
+  border: 1px solid lightgray;
+}
+
+input:focus {
+  border-style: none;
+}
+
+.vehicle-number-input {
+  width: stretch;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+}
+
+.form-submit-btn {
+  width: stretch;
+  padding-block: 0.7rem;
+  border-radius: 0.3rem;
+  border: none;
+  margin-bottom: 2rem;
+  color: white;
+  background-color: #337ab7;
+}
+
+.tariff-list {
+  display: flex;
+  gap: 2rem;
+}
+
+.readonly {
+  border: none;
+}
+
+.checkbox-element {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.delete-btn {
+  background-color: red;
+  font-size: large;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .tariff-list {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
